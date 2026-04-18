@@ -50,12 +50,19 @@ WiFi MultiAttack es un script integral en Bash para auditorías de seguridad WiF
 El script instalará automáticamente los paquetes necesarios si faltan (requiere apt). Asegúrate de tener:
 
 · aircrack-ng
+
 · macchanger
+
 · hcxdumptool / hcxtools
+
 · hashcat
+
 · wpasupplicant
+
 · reaver (para ataques WPS)
+
 · john (opcional, para John the Ripper)
+
 · tshark (para detección de PMF)
 
 En sistemas basados en Debian/Ubuntu, ejecuta manualmente:
