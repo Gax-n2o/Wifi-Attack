@@ -135,12 +135,6 @@ Siempre obtén permiso explícito del propietario de la red antes de realizar pr
 
 ---
 
-📸 Capturas de Pantalla
-
-(Puedes agregar imágenes aquí mostrando la interfaz, la captura de handshake, etc.)
-
----
-
 👨‍💻 Autor
 
 N2O
