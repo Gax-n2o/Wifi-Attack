@@ -134,6 +134,8 @@ Wifi_MultiAttack/
     └── clave_*.txt
 ```
 
+en la carpeta de Diccionario puedes agregar todos los diccionarios que quieras, y despues elegir con que diccionario quieres atacar.
+
 ---
 
 ⚠️ Consideraciones Legales y Éticas
