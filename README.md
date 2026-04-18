@@ -7,22 +7,40 @@ WiFi MultiAttack es un script integral en Bash para auditorías de seguridad WiF
 ✨ Características Principales
 
 · Ataque combinado Handshake + PMKID en una sola ejecución.
+
 · Detección automática de WPA2, WPA3, modo transición y PMF (802.11w).
+
 · Captura de handshake con opciones de deauth personalizables (limitado, continuo, cliente específico).
+
 · Escaneo de redes vulnerables a PMKID (usando hcxdumptool).
+
 · Ataque WPS con Reaver.
+
 · Motor de cracking integrado con Hashcat y John the Ripper:
+
   · Diccionario simple.
+  
   · Reglas (best64.rule, OneRuleToRuleThemAll, dive.rule).
+  
   · Ataques de máscara, fuerza bruta incremental.
+  
   · Modos híbridos (diccionario + máscara).
+
 · Gestor de diccionarios persistente:
+
+
   · Almacena contraseñas encontradas en found_pass.txt.
+
   · Diccionario personal My_Pwnedpass.txt.
+  
   · Carpeta Diccionarios/ para wordlists adicionales.
+  
   · Utilidades: estadísticas, fusión, limpieza de duplicados.
+
 · Soporte para terminales gráficas (gnome-terminal, xterm, konsole, terminator) con ventanas flotantes automáticas (regla para bspwm).
+
 · Modo monitor y restauración automática de la interfaz de red.
+
 · Salidas organizadas por cada objetivo (carpeta con SSID sanitizado).
 
 ---
